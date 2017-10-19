@@ -1,5 +1,5 @@
-baseurl = "/"
-languageCode = "pt-BR"
+baseurl = "https://example.org/"
+languageCode = "en-us"
 title = "Strata"
 theme = "hugo-strata-theme"
 disqusShortname = "spf13"
@@ -11,8 +11,8 @@ paginate = 10
 [params]
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-	name = "SysMap"
-	description = "SysMap Software e Consultoria"
+	name = "Your name"
+	description = "Describe your website"
 
 	# Format dates with Go's time formatting
 	date_format = "2006-01-02"
@@ -137,16 +137,11 @@ paginate = 10
 
 # Menu links that appear on the left sidebar
 [[menu.main]]
-    name = "Home"
-    url  = "/"
-    weight = 0
+	name = "Home"
+	url  = "/"
+	weight = 10
 
 [[menu.main]]
-    name = "About"
-    url  = "about"
-    weight = 5
-
-[[menu.main]]
-    name = "Blog"
-    url  = "post/"
-    weight = 10
+	name = "Blog"
+	url  = "post/"
+	weight = 0
