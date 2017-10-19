@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "pt-BR"
-title = "Strata"
+title = "Sysmap - JAMStack com Netlify"
 theme = "hugo-strata-theme"
 disqusShortname = "spf13"
 # Enable Google Analytics by inserting your tracking code
@@ -49,13 +49,13 @@ paginate = 10
 
 	[params.about]
 		hide  = false
-		title = "Ipsum lorem dolor aliquam ante commodo magna sed accumsan arcu neque."
-		content = "Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia."
+		title = "Teste 1 Ipsum lorem dolor aliquam ante commodo magna sed accumsan arcu neque."
+		content = "Teste 2 Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia."
 
 
 	[params.portfolio]
 		hide  = false
-		title = "Recent Work"
+		title = "Portfólio"
 
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
@@ -124,15 +124,15 @@ paginate = 10
 	    # - send a dummy email yourself to confirm your account
 	    # - click the confirm link in the email from www.formspree.io
 	    # - you're done. Happy mailing!
-		email = "hello@example.com"
+		email = "matheus.barreto@sysmap.com.br"
 
 		[params.contact.form]
 			# Set custom strings for the form if your native
 			# language isn't English
-			name = "Name"
-			email = "Email"
-			message = "Message"
-			submit = "Send message"
+			name = "Nome"
+			email = "E-mail"
+			message = "Mensagem"
+			submit = "Enviar Mensagem"
 
 
 # Menu links that appear on the left sidebar
@@ -148,5 +148,5 @@ paginate = 10
 
 [[menu.main]]
     name = "Blog"
-    url  = "post/"
+    url  = "first/"
     weight = 10
